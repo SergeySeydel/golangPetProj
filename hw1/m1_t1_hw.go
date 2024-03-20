@@ -19,5 +19,5 @@ func main() {
 	}
 
 	totalCost := (distance / 100) * consumption * costPerLiter
-	fmt.Printf("Стоимость поездки составит: %.2f рублей\n", totalCost)
+	fmt.Printf("Стоимость поездки в рублях: %.2f", totalCost)
 }
