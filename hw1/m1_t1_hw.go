@@ -7,17 +7,17 @@ func main() {
 
 	var distance, consumption float64
 
-	fmt.Println("Введите расстояние в километрах:")
+	fmt.Println("Enter distance in kilometers:")
 	fmt.Scanln(&distance)
 
-	fmt.Println("Введите расход топлива в литрах на 100 км:")
+	fmt.Println("Enter fuel consumption for each 100 kilometers:")
 	fmt.Scanln(&consumption)
 
 	if distance < 50 || distance > 10000 || consumption < 5 || consumption > 25 {
-		fmt.Println("Пожалуйста, введите корректные данные.")
+		fmt.Println("Please enter correct information")
 		return
 	}
 
 	totalCost := (distance / 100) * consumption * costPerLiter
-	fmt.Printf("Стоимость поездки в рублях: %.2f", totalCost)
+	fmt.Printf("Cost of trail is: %.2f rubles\n", totalCost)
 }
