@@ -1,1 +1,1 @@
-# golangPetProj
+# Solving problems using golang
