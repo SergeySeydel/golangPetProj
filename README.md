@@ -1,1 +1,1 @@
-# Solving problems using golang
+# Solving problems via golang
