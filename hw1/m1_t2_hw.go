@@ -2,6 +2,13 @@ package main
 
 import "fmt"
 
+/*
+Задача № 2. Получить реверсную запись трехзначного числа
+Пример: 
+вход: 346, выход: 643
+вход: 100, выход: 001
+*/
+
 func main() {
   
   var number, lastDigit, middleDigit, firstdigit int
