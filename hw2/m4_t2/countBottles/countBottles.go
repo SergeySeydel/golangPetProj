@@ -3,12 +3,15 @@ package countBottles
 
 func CountBottles(a int) string{
 
+	var b int
+	b = a % 10
+
 	switch{
-	case a == 1:
+	case b == 1:
 		return "butilka"
-	case a > 1 && a < 5:
+	case b > 1 && a < 5:
 		return "butilki"
-	case a > 4:
+	case b > 4:
 		return "butilok"
 	default:
 		return "butilok"
