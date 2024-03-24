@@ -3,7 +3,7 @@ package isRightTriangle
 import "math"
 
 func Distance(x1, y1, x2, y2 float64) float64{
-	return math.Sqrt(math.Pow(x2-x1,2)) + math.Pow(y2-y1,2)
+	return math.Sqrt(math.Pow(x2-x1,2) + math.Pow(y2-y1,2))
 }
 
 func IsRightTriangle(x1, y1, x2, y2, x3, y3 float64) bool{
